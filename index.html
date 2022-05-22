@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./stylesheets/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Hurricane&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@300&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <!----header start-->
+      <header id="header">
+        <div class="container">
+          <div class="text-center py-4">
+            <img src="./images/logo.png" class="shopify-logo" />
+            <h2
+              class="my-3 header-heading display-4 text-white font-weight-bold"
+            >
+              Sell online with shopify!
+            </h2>
+            <h3 class="header-heading text-white font-weight-bold">
+              Trusted by over 1,000,000 businesses worldwide
+            </h3>
+            <form id="header-form" class="my-4">
+              <div class="row">
+                <div class="col-lg-9">
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="header-text-field"
+                      placeholder="name@example.com"
+                    />
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <button
+                    class="btn btn-primary bg-dark border-0 w-100"
+                    id="trial-btn"
+                  >
+                    Start free trial
+                  </button>
+                </div>
+              </div>
+            </form>
+            <p class="lead text-white">
+              Try Shopify free for 90 days, no credit card required. By entering
+              your email, you agree to receive marketing emails from Shopify
+            </p>
+            <img src="./images/pic.webp" class="img-fluid" />
+          </div>
+        </div>
+      </header>
+      <!---header end-->
+      <!---featured section starts-->
+      <section class="features container">
+        <div class="row my-4 py-4">
+          <div class="col-lg-4 col-md-4">
+            <div class="feature-card text-mob-center">
+              <i class="fa-solid fa-mobile-screen featured-icon"></i>
+              <h5 class="my-2">
+                Beautiful themes that are responsive and customizable
+              </h5>
+              <p>
+                No design skills needed. You have complete control over the look
+                and feel of your website, from its layout, to content and
+                colors.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="feature-card text-mob-center">
+              <i class="fa-solid fa-money-bill featured-icon"></i>
+              <h5 class="my-2">
+                Beautiful themes that are responsive and customizable
+              </h5>
+              <p>
+                No design skills needed. You have complete control over the look
+                and feel of your website, from its layout, to content and
+                colors.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="feature-card text-mob-center">
+              <i class="fa-solid fa-users featured-icon"></i>
+              <h5 class="my-2">
+                Beautiful themes that are responsive and customizable
+              </h5>
+              <p>
+                No design skills needed. You have complete control over the look
+                and feel of your website, from its layout, to content and
+                colors.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!---featured sections end-->
+      <!----brand section starts-->
+      <section class="brands-section">
+        <div class="d-flex flex-wrap container">
+          <div class="img">
+            <img src="./images/2.webp" class="img-fluid" />
+          </div>
+          <div class="img">
+            <img src="./images/3.webp" class="img-fluid" />
+          </div>
+          <div class="img">
+            <img src="./images/4.webp" class="img-fluid" />
+          </div>
+          <div class="img">
+            <img src="./images/5.webp" class="img-fluid" />
+          </div>
+          <div class="img">
+            <img src="./images/6.webp" class="img-fluid" />
+          </div>
+          <div class="img">
+            <img src="./images/7.webp" class="img-fluid" />
+          </div>
+          <div class="img">
+            <img src="./images/7.webp" class="img-fluid" />
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container text-center my-3">
+          <h2 class="qoute-heading">
+            “Shopify is better than any other platform we’ve played with, and
+            we’ve played with them all.”
+          </h2>
+          <p>JONATHON BAYME, CEO OF THEORY11</p>
+          <button class="btn btn-primary btn-lg">Start Trial</button>
+        </div>
+      </section>
+      <footer class="container">
+        <div class="footer-links d-flex">
+          <a href="#" class="nav-link">Privacy Policy</a>
+          <a href="#" class="nav-link">Terms and condition</a>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+      integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

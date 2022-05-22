@@ -1,0 +1,59 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+#header {
+  background-image: url("../images/header.png");
+  height: 900px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.shopify-logo {
+  width: 250px;
+}
+
+#header-form {
+  width: 65%;
+  margin: 0 auto;
+}
+
+#header-text-field {
+  height: 60px;
+}
+
+#trial-btn {
+  height: 60px;
+}
+
+.featured-icon {
+  font-size: 44px;
+  color: #5b69c3;
+}
+
+.img {
+  width: 140px;
+  margin: 10px auto;
+}
+.qoute-heading {
+  margin: 2rem auto 1rem auto;
+}
+
+@media screen and (max-width: 767px) {
+  #header {
+    height: 800px;
+  }
+  .header-heading {
+    font-size: 24px;
+  }
+  #header-form {
+    width: 95% !important;
+  }
+  .text-mob-center {
+    text-align: center;
+  }
+  .qoute-heading {
+    font-size: 24px;
+  }
+}
